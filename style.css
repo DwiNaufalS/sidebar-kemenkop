@@ -35,9 +35,9 @@
   background-color: #f4f6f9;
 }
 .sidebar .logo-details img{
-    width: 180px;
-    margin: auto;
-    height: auto;
+  width: 180px;
+  margin: auto;
+  height: auto;
 }
 
 .sidebar .nav-links{
@@ -193,18 +193,19 @@
 }
 
 .sidebar .bx-menu{
+  transition: all 0.5s ease;
   cursor: pointer;
   position: absolute;
   margin-top: 13px;
   margin-left: 275px;
-  justify-content: left;
   color: #000;
   font-size: 35px;
 }
 
 .sidebar.close .bx-menu{
+  transition: all 0.5s ease;
   cursor: pointer;
-  margin-top: 12px;
+  margin-top: 13px;
   margin-left: 20px;
   color: #fff;
   font-size: 35px;
